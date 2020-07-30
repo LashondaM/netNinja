@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/netNinja/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/netNinja/static/js/main.3ae03fd0.chunk.js",
+    "main.js.map": "/netNinja/static/js/main.3ae03fd0.chunk.js.map",
+    "runtime-main.js": "/netNinja/static/js/runtime-main.6768e0a0.js",
+    "runtime-main.js.map": "/netNinja/static/js/runtime-main.6768e0a0.js.map",
+    "static/js/2.8e080fb6.chunk.js": "/netNinja/static/js/2.8e080fb6.chunk.js",
+    "static/js/2.8e080fb6.chunk.js.map": "/netNinja/static/js/2.8e080fb6.chunk.js.map",
+    "index.html": "/netNinja/index.html",
+    "precache-manifest.19860f69659a7fbce6c7bf146c87f5ee.js": "/netNinja/precache-manifest.19860f69659a7fbce6c7bf146c87f5ee.js",
+    "service-worker.js": "/netNinja/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/netNinja/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.8e080fb6.chunk.js.LICENSE.txt": "/netNinja/static/js/2.8e080fb6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6768e0a0.js",
+    "static/js/2.8e080fb6.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.3ae03fd0.chunk.js"
+  ]
+}
