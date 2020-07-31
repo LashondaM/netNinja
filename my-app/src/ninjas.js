@@ -1,33 +1,35 @@
 import React from 'react';
+import './Ninjas.css'
 
-const Ninjas = ({ninjas}) => {
+const Ninjas = ({ninjas, deleteNinja}) => {
         // console.log(this.props);
-        // const ninjaList = ninjas.map(ninja => {
-        //     if (ninja.age > 20){
-        //     return (
-        //     <div className="ninja" key={ninja.id}>
-        //         <div>Name: { ninja.name }</div>
-        //         <div>Age: { ninja.age }</div>
-        //         <div>Afro: { ninja.afro }</div>
-        //     </div>
-        //     )
-        //     } else{
-        //         return null
-        //     }
-        // })
+        const ninjaList = ninjas.map(ninja => {
+            if (ninja.age > 20){
+            return (
+            <div className="ninja" key={ninja.id}>
+                <div>Name: { ninja.name }</div>
+                <div>Age: { ninja.age }</div>
+                <div>Afro: { ninja.afro }</div>
+                <button onClick={() => {deleteNinja(ninja.id)}}>Erase Her</button>
+            </div>
+            )
+            } else{
+                return null
+            }
+        })
         
         return(
            <div className="ninja-list">
-               { 
-               ninjas.map(ninja => {
-            return ninja.age > 20 ? (
-                <div className="ninja" key={ninja.id}>
-                     <div>Name: { ninja.name }</div>
-                     <div>Age: { ninja.age }</div>
-                     <div>Afro: { ninja.afro }</div>
-                </div>
-            ) : null;
-        })
+               { ninjaList
+        //        ninjas.map(ninja => {
+        //     return ninja.age > 20 ? (
+        //         <div className="ninja" key={ninja.id}>
+        //              <div>Name: { ninja.name }</div>
+        //              <div>Age: { ninja.age }</div>
+        //              <div>Afro: { ninja.afro }</div>
+        //         </div>
+        //     ) : null;
+        // })
       }
            </div>
         )

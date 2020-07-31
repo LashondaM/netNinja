@@ -1,0 +1,12 @@
+body{
+    transition: all 1s;
+    /* background: rgb(230, 97, 230); */
+}
+
+form {
+    background: #f72222a1;
+    /* padding: 5px; */
+}
+
+/*  .ninjas form will only have an affect on the form in the Ninjas file */
+/*  look at index.css as well */
